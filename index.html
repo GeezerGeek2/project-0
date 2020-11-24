@@ -4,7 +4,6 @@
     <head>
         <title>Google Multi-Search</title>
         <link rel="stylesheet" href="style.css">
-        <script src="proj0.js"></script>
     </head>
 
     <body style="font-family: Arial, sans-serif;">  
@@ -18,17 +17,21 @@
             </a>
        </div>
 
-        <div style="margin-top: 25%;">       
-            <h1 style="color: cornflowerblue; text-align: center;">Google search page</h1>
+        <div style="margin-top: 105px;">       
+            <div style="color: cornflowerblue; text-align: center; font-size: 95px; font-weight:normal">Google search</div>
 
-            <div class="search_div">
-                <form method="get" action="https://google.com/search">
-                        <input class="search_input" type="text" name="q">              
-                        <input type="submit" value="Google Search">
-                </form>
+                <div class="search_div">
+                    <form id="form1" method="get" action="https://google.com/search">
+                        <input class="search_input" type="text" name="q">
+                        <input type="submit" class="submit-form" />              
+                    </form>    
+                </div>
             </div>
-         </div>      
- 
 
+            <div style="margin-top: 27px; margin-left: 400px;">
+                <button type="submit" form="form1" value="Submit">Search Google</button>
+            </div>
+
+        </div>      
     </body>
 </html> 
