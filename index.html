@@ -17,21 +17,22 @@
             </a>
        </div>
 
-        <div style="margin-top: 105px;">       
-            <div style="color: cornflowerblue; text-align: center; font-size: 95px; font-weight:normal">Google search</div>
+        <div style="margin-top: 115px;">       
+            <div style="color: cornflowerblue; text-align: center; font-size: 75px; font-weight:normal">Google Search</div>
 
                 <div class="search_div">
                     <form id="form1" method="get" action="https://google.com/search">
-                        <input class="search_input" type="text" name="q">
-                        <input type="submit" class="submit-form" />              
+                        <input class="search_input" type="text" name="q" autofocus>
+                        <input type="submit" style="display:none">             
                     </form>    
                 </div>
             </div>
 
-            <div style="margin-top: 27px; margin-left: 400px;">
-                <button type="submit" form="form1" value="Submit">Search Google</button>
+            <div class="buttons_div">
+                <button class="search_button" type="submit" form="form1" value="Submit">Google Search</button>
+                <button class="search_button" type="submit" form="form1" value="Submit" name="btnI" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
             </div>
 
         </div>      
     </body>
-</html> 
+</html>
