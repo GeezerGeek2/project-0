@@ -12,11 +12,23 @@
             </a>
         </div>
         
-        <h1 style="color:red;">Image search page</h1>
+        <div style="margin-top: 115px;">       
+            <div style="color: cornflowerblue; text-align: center; font-size: 75px; font-weight:normal">Google Image Search</div>
+                <div class="search_div">
+                    <form id="form1" method="get" action="https://google.com/search">
+                        <input class="search_input" type="text" name="q" placeholder="" autofocus onfocus="this.value=''">
+                        <input type="submit" style="display:none">
+                        <input type="text" name="tbm" value="isch" style="display:none">             
+                    </form>    
+                </div>
+            </div>
 
-        <form>
-            <input type="button" onclick="window.location.href='advanced.html';"value="advanced" />
-        </form>
+            <div class="buttons_div">
+                <input class="search_button" type="submit" form="form1" value="Image Search"></input>
+            </div>
+
+        </div>      
+
       
     </body>
-</html> 
+</html>
